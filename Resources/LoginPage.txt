@@ -1,0 +1,13 @@
+* Settings *
+Documentation       Operations from the login page
+Library  Login.Login
+
+* Keywords *
+Login to the outfittery website "${username}" "${password}" "${isValid}"
+    login_to_outfittery   username=${username}   password=${password}   isValid=${isValid}
+
+validate leisure selection alert
+    validate_atleast_one_leisure_selection_alert
+
+validate lets go option
+    validate_lets_go
