@@ -1,6 +1,7 @@
 from robotpageobjects import Page
 from robot.utils import asserts
 
+
 class Login(Page):
 
     def __init__(self):
